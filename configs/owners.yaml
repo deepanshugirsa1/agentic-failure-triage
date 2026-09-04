@@ -1,0 +1,23 @@
+# Route failure categories to owning teams (illustrative).
+
+owners:
+  perception:
+    team: Perception
+    slack: "#perception-oncall"
+    keywords: [obstacle, detection, lidar, camera, false_positive]
+  planning:
+    team: Motion Planning
+    slack: "#planning-oncall"
+    keywords: [trajectory, stall, route, progress, planner]
+  control:
+    team: Vehicle Control
+    slack: "#controls-oncall"
+    keywords: [brake, lateral, comfort, jerk, tracking]
+  localization:
+    team: Localization
+    slack: "#localization-oncall"
+    keywords: [map_match, gps, lane, localization]
+  default:
+    team: Autonomy Eval
+    slack: "#eval-triage"
+    keywords: []
